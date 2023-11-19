@@ -23,12 +23,8 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                ],[
-                    InlineKeyboardButton('👻 ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/AvaFlix"),
-                    InlineKeyboardButton('🫨 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url="https://t.me/AvaFlix/546")
-                ],[
-                    InlineKeyboardButton('⚔️ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ⚔️', url="https://t.me/AvaFlix")
+                    InlineKeyboardButton('❓ How To Use Me ', url="https://t.me/AvaFlix/300"),
+                    InlineKeyboardButton('⚜ Updates', url="https://t.me/AvaFlix")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -43,15 +39,8 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('⤬ Jᴏɪɴ Oᴜʀ Mᴀɪɴ Gʀᴏᴜᴘ ⤬', url=f'https://t.me/AvaFlix')
-                ],[
-                    InlineKeyboardButton('🗡️ ᴜᴘᴅᴀᴛᴇ 🗡️', url="https://t.me/AvaFlix"),
-                    InlineKeyboardButton('✨ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ✨', url="https://t.me/AvaFlix/546")
-                ],[
-                    InlineKeyboardButton('⚡ ʜᴇʟᴘ ⚡', callback_data='help'),
-                    InlineKeyboardButton('🤝 ᴀʙᴏᴜᴛ 🤝', callback_data='about')
-                ],[
-                    InlineKeyboardButton('💰 Pʀᴇᴍɪᴜᴍ Pʟᴀɴ 💸', callback_data="shortlink_info")
+                    InlineKeyboardButton('❓ How To Use Me ', url="https://t.me/AvaFlix/300"),
+                    InlineKeyboardButton('⚜ Updates', url="https://t.me/AvaFlix")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEKHAJk504563prYQMfO9NO51-p7xo1VAACgAMAAuMV0FVUQzIP1OspYjAE") 
@@ -73,7 +62,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "⚔️ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ⚔️", url=invite_link.invite_link
+                    "⚜️ᴜᴘᴅᴀᴛᴇ", url=invite_link.invite_link
                 )
             ]
         ]
@@ -94,15 +83,8 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('⤬ Jᴏɪɴ Oᴜʀ Mᴀɪɴ Gʀᴏᴜᴘ ⤬', url=f'https://t.me/AvaFlix')
-                ],[
-                    InlineKeyboardButton('🗡️ ᴜᴘᴅᴀᴛᴇ 🗡️', url="https://t.me/AvaFlix"),
-                    InlineKeyboardButton('✨ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ✨', url="https://t.me/AvaFlix/546")
-                ],[
-                    InlineKeyboardButton('⚡ ʜᴇʟᴘ ⚡', callback_data='help'),
-                    InlineKeyboardButton('🤝 ᴀʙᴏᴜᴛ 🤝', callback_data='about')
-                ],[
-                    InlineKeyboardButton('💰 Pʀᴇᴍɪᴜᴍ Pʟᴀɴ 💸', callback_data="shortlink_info")
+                    InlineKeyboardButton('❓ How To Use Me ', url="https://t.me/AvaFlix/300"),
+                    InlineKeyboardButton('⚜ Updates', url="https://t.me/AvaFlix")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
@@ -153,7 +135,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('⚔️ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ⚔️', url=f'https://t.me/AvaFlix'),
+                          InlineKeyboardButton('🔆彡[ @AVAFLiX ]彡🔆', url=f'https://t.me/AvaFlix'),
                          ]
                         ]
                     )
@@ -169,7 +151,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('⚔️ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ⚔️', url=f'https://t.me/AvaFlix'),
+                          InlineKeyboardButton('🔆彡[ @AVAFLiX ]彡🔆', url=f'https://t.me/AvaFlix'),
                          ]
                         ]
                     )
@@ -332,7 +314,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('⚔️ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ⚔️', url=f'https://t.me/AvaFlix'),
+                      InlineKeyboardButton('🔆彡[ @AVAFLiX ]彡🔆', url=f'https://t.me/AvaFlix'),
                      ]
                     ]
                 )
@@ -445,7 +427,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('⚔️ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ⚔️', url=f'https://t.me/AvaFlix'),
+              InlineKeyboardButton('🔆彡[ @AVAFLiX ]彡🔆', url=f'https://t.me/AvaFlix'),
              ]
             ]
         )
