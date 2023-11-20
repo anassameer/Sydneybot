@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[https://te.legra.ph/file/1f59cf8b995536aa6eb6f.jpg](https://te.legra.ph/file/9c81183d4848e90a5aa21.jpg)" alt="Sydney-Bot Logo">
+  <img src="[https://te.legra.ph/file/9c81183d4848e90a5aa21.jpg](https://te.legra.ph/file/9c81183d4848e90a5aa21.jpg)" alt="Sydney-Bot Logo">
 </p>
 <h1 align="center">
   Sydney-Bot
