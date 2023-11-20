@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://te.legra.ph/file/1f59cf8b995536aa6eb6f.jpg" alt="Sydney-Bot Logo">
+  <img src="[https://te.legra.ph/file/1f59cf8b995536aa6eb6f.jpg](https://te.legra.ph/file/9c81183d4848e90a5aa21.jpg)" alt="Sydney-Bot Logo">
 </p>
 <h1 align="center">
   Sydney-Bot
@@ -47,7 +47,7 @@
 - [x] 𝐴𝑢𝑡𝑜 𝐷𝑒𝑙𝑒𝑡𝑒
 - [x] 𝐴𝑛𝑑 𝑀𝑜𝑟𝑒...
 
-<b>𝑇𝑜 𝑘𝑛𝑜𝑤 𝑎𝑏𝑜𝑢𝑡 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐽𝑜𝑖𝑛 𝑜𝑢𝑟 <a href='https://t.me/MOVIES_PROVIDE'>ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ❤️‍🔥</a>.</b>
+<b>𝑇𝑜 𝑘𝑛𝑜𝑤 𝑎𝑏𝑜𝑢𝑡 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐽𝑜𝑖𝑛 𝑜𝑢𝑟 <a href='https://t.me/AvaFlix'>ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ❤️‍🔥</a>.</b>
 
 ## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
 ```
